@@ -1,5 +1,5 @@
 {
-  "name": "ui-civic",
+  "name": "ui-civic-si",
   "homepage": "./",
   "version": "0.1.0",
   "private": true,
@@ -20,9 +20,9 @@
     "deploy": "yarn build && yarn gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "findCars": "node ../civicTypeRFinder/civic.js > src/cars.js",
+    "findCars": "node ../civicSiFinder/civic.js > src/cars.js",
     "compileCars": "babel-node writeAllCtrs.js",
-    "update:cars": "yarn findCars && yarn compileCars && yarn deploy"
+    "update:cars": "yarn findCars && yarn deploy"
   },
   "eslintConfig": {
     "extends": [

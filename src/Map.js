@@ -22,9 +22,6 @@ export const Map = (props) => {
           return false
       }
       dedupe[car.state+car.name] = true;
-      if (props.onlyYellow && car.color !== "Phoenix Yellow"){
-          return false;
-      }
 
       if (props.atDealer && props.atTransit) return true;
 

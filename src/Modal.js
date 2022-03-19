@@ -28,7 +28,6 @@ export const CivicModal = (props) => {
    
       return (
         <div>
-          {/* <button onClick={openModal}>Open Modal</button> */}
           <Modal
             isOpen={props.data}
             onAfterOpen={afterOpenModal}
